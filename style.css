@@ -1,0 +1,200 @@
+body{
+    margin:0;
+    padding:0;
+    viewport-fit: 100vh;
+    background-color: #d0e8f2;
+}
+
+.intro {
+    position: relative;
+    width: 80%;
+    height: 60vh;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px auto 0 auto;
+}
+
+#sunset{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    border-radius:15px;
+}
+
+#me-travel{
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    bottom: 20px;
+    left: 200px;
+    border: none;
+    opacity:1.5;
+}
+
+.intro h1, .intro h2 {
+    position: relative;
+    width: 400px;
+    text-align: center;
+    left: 400px;
+    bottom: 600px;
+}
+
+.intro h1 {
+    font-size: 3em;
+    font-family: 'Sacramento';
+}
+
+.intro h2 {
+    font-size: 2em;;
+    font-family: 'Ubuntu Mono', monospace
+}
+
+.postcards {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+#california {
+    bottom: 500px;
+    left: 800px;
+    transform: rotate(20deg);
+}
+
+#malaysia{
+    bottom: 550px;
+    left: 600px;
+    transform: rotate(-15deg);
+}
+
+#jerusalem{
+    bottom: 700px;
+    left: 700px;
+    transform: rotate(25deg);
+    z-index: 10;
+}
+
+#singapore{
+    bottom: 600px;
+    left: 650px;
+    transform: rotate(-25deg);
+    z-index: 15;
+}
+
+#paris{
+    bottom: 750px;
+    left: 300px;
+    transform: rotate(-25deg);
+    z-index: 20;
+}
+
+#germany{
+    bottom: 420px;
+    left: 200px;
+    transform: rotate(25deg);
+    z-index: 25;
+}
+
+.background p {
+    width: 600px;
+    margin: 20px auto 20px 650px;
+    font-size: 1.5em;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bolder;
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+.background img {
+    position: relative;
+    display: block;
+}
+#eyes {
+    width: 600px;
+    height: 200px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#cookies, #shoes, #pasata{
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#cookies{
+    position: relative;
+    left: 500px;
+    transform: rotate(-15deg);
+    z-index: 5;
+}
+
+#pasata{
+    position: relative;
+    left: 500px;
+    z-index: 10;
+}
+
+#shoes{
+    position: relative;
+    left: 500px;
+    transform: rotate(15deg);
+    z-index: 5;
+}
+
+.skill {
+    position: relative;
+    width: 1000px;
+    margin: 50px auto;
+    background: rgba(0,0,0,0.4);
+    border-radius: 15px;
+}
+
+.wrapper {
+    padding: 20px;
+}
+.skill p, .skill ul {
+    width: 780px;
+    margin: 20px auto 20px 10px;
+    font-size: 1.5em;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: normal;
+    color: white;
+}
+
+hr{
+    border: 10px dotted lightgrey;
+    border-bottom: none;
+    width: 200px;
+}
+
+#information{
+    width: 100%;
+    height: 100px;
+    background: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+a {
+    color: #11999e;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: white;
+}
+
+#traveller {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 200px;
+    float:right;
+}
